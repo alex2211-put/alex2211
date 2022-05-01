@@ -1851,10 +1851,11 @@ header .logo img {
 }
 
 header .logo .logo-wrap {
-    width: 110px;
+    width: 200px;
+    font-size: 26px;
     height: 33px;
     overflow: hidden;
-    margin-left: -10px
+    margin-left: -10px;
 }
 
 .nav-menu {
