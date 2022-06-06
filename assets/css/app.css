@@ -5171,7 +5171,7 @@ body.touch .sidescroll .sidescroll__wrap {
     }
 }
 
-.carousel__plane {
+.Сcarousel__plane {
     width: 36vw;
     margin-right: 60px;
     display: block
@@ -5202,7 +5202,6 @@ body.touch .sidescroll .sidescroll__wrap {
 }
 
 .carousel__text {
-    margin-top: 50px;
     position: relative;
     padding-left: 75px;
     display: block;
