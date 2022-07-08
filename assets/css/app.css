@@ -1647,7 +1647,9 @@ hr {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 1px solid transparent;
+    background-color:rgba(255,255,255,0.3);
+    -webkit-backdrop-filter:blur(20px) saturate(2);
+    backdrop-filter:blur(20px) saturate(2);
     opacity: 0;
     transition: transform .2s ease, opacity .35s ease, background-color .35s ease, border-color .35s ease;
     -webkit-transform: scale(0.8);
@@ -1680,7 +1682,7 @@ hr {
 }
 
 .cursor.is-active .inner .circle {
-    border-color: #fff;
+    /* border-color: #fff; */
     opacity: 1;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -1689,10 +1691,10 @@ hr {
     transform: scale(1)
 }
 
-.cursor.fill .inner .circle {
+/* .cursor.fill .inner .circle {
     background-color: #fff;
     border-color: transparent
-}
+} */
 
 .cursor.fill .inner .circle .cursor_text {
     color: #000
