@@ -16698,7 +16698,7 @@ class StretchEffect extends EffectShell {
 
     onMouseEnter() {
         this.currentItem && this.isMouseOver || (this.isMouseOver = !0, TweenLite.to(this.uniforms.uAlpha, .5, {
-            value: 1,
+            value: 0.3,
             ease: Power4.easeOut
         }))
     }
