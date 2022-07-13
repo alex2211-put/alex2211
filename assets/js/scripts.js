@@ -16310,7 +16310,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 var curScroll, prevScroll = 0, direction = 0, prevDirection = 0, toggleHeader = function (t, e) {
     var i = document.querySelector(".header-wrap");
-    e > 100 ? i.classList.add("hide") : i.classList.remove("hide")
+    var last_upd = document.querySelector(".lust_upd");
+    e > 100 ? i.classList.add("hide") : i.classList.remove("hide");
+    e > 100 ? last_upd.classList.add("hide_upd") : last_upd.classList.remove("hide_upd");
 };
 
 function hideShowHeader(t) {
