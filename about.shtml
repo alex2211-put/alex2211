@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>alik-put | Programmer developer</title>
+    <meta name="description" content="Alexander Putin | Programmer developer">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(88691127, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/88691127" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- FAVICONS -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/img/icons/ms-icon-144x144.png">
+
+
+    <!-- OG IMAGES -->
+
+    <meta name="robots" content="noodp" />
+    <link rel="canonical" href="https://alex2211-put.github.io/" />
+    <link rel="publisher" href="" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Alexander Putin" />
+    <meta property="og:description" content="Alexander Putin | Programmer developer" />
+    <meta property="og:url" content="https://alex2211-put.github.io/" />
+    <meta property="og:site_name" content="Alexander Putin | Programmer developer" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/56935749?v=4" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="Alexander Putin | Programmer developer" />
+    <meta name="twitter:title" content="Alexander Putin" />
+    <meta name="twitter:site" content="@alik-put" />
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/56935749?v=4" />
+    <meta name="twitter:creator" content="@alik-put" />
+
+    <!-- TRACKING CODES -->
+    <meta name="google-site-verification" content="bsnNPmFR_FEMdAgvRLb4RP8_z4SDLWXIAGpdHyp87Kg" />
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-20462557-3');
+        gtag('config', 'AW-793226681');
+
+
+    </script>
+
+
+    <!-- PRELOADS -->
+    <link rel="preload" href="/assets/css/app.css" as="style">
+    <link rel="preload" href="/assets/js/scripts.js" as="script">
+    <link rel="preload" href="/img/fav_rem.png" as="image">
+
+    <link rel="preload" href="/assets/fonts/Graphik-Semibold-Web.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous">
+    <link rel="preload" href="/assets/fonts/Graphik-Medium-Web.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous">
+    <link rel="preload" href="/assets/fonts/Graphik-Extralight-Web.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous">
+    <link rel="preload" href="/assets/fonts/Graphik-Bold-Web.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/assets/fonts/Graphik-Light-Web.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous">
+    <link rel="preload" href="/assets/fonts/Graphik-Regular-Web.woff2" as="font" type="font/woff2"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <script defer src="/assets/js/scripts.js"></script>
+</head>
+
+
+<body class="  is-loading">
+
+    <div class="cursor" data-cursor>
+        <div class="inner">
+            <div class="circle"><span class="cursor_text"></span></div>
+        </div>
+    </div>
+
+    <div id="svg-sprite" style="display: none">
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <symbol id="fleava_logo" viewBox="0 0 307 86">
+                <path d="M11.9,29.5H0v-4.1h11.9v-7.9c0-8.2,2.3-13.4,12.9-13.4c2.2,0,5,0.3,7.8,0.6v4.1c-2.2-0.4-5.1-0.6-7.2-0.6
+            c-2.3,0-8.9,0-8.9,7.9v9.3h14.7v4.1H16.5v48.3h-4.6V29.5z" />
+                <path d="M48.4,4.7h4.6v73.1h-4.6V4.7z" />
+                <path d="M68.5,52.6c0.3,13.1,8.9,22.7,24.2,22.7c15.8,0,19.8-10.2,21.6-14.9h4.6c-4.3,13.2-13.2,19-26.7,19
+            c-17.3,0-28.2-10.8-28.2-28.3c0-11,6.7-27.4,28.3-27.4c17.6,0,27.7,12.1,27.9,28.9H68.5z M115.1,48.5
+            c-1.9-14.3-11.6-20.7-23.3-20.7c-13.1,0-21.3,8.2-23.3,20.7H115.1z" />
+                <path d="M129.3,41.6c1.7-13.2,8.2-17.8,23.6-17.8c14.8,0,23.3,3.6,23.3,15.4v29.4c0,3.9,0,6.2,3.4,6.2c1.5,0,3-0.3,4.5-0.8V78
+            c-1.4,0.5-3.3,0.8-5.6,0.8c-6.2,0-6.2-4.5-6.2-11.5H172c-5.7,10.7-17.5,12.1-24.2,12.1c-4.4,0-20.8,0-20.8-16
+            c0-10.7,8.8-14.4,19.1-15l17.7-1.2c5.3-0.4,7.7-1,7.7-7.5c0-7.1-3.9-11.9-18.8-11.9c-13.4,0-17.5,4.3-18.9,13.7H129.3z
+            M171.6,48.5h-0.2c-1.1,1.2-3.8,2.5-8.1,2.8l-17.1,1.2c-8.5,0.6-14.6,3.1-14.6,11c0,10.6,10.4,11.9,16.6,11.9
+            c10.1,0,23.5-4.7,23.5-17.2V48.5z" />
+                <path d="M185.9,25.4h5.2l22.2,47.7l22.2-47.7h5.2l-25.1,52.4h-4.6L185.9,25.4z" />
+                <path d="M248.1,41.6c1.7-13.2,8.2-17.8,23.6-17.8c14.8,0,23.3,3.6,23.3,15.4v29.4c0,3.9,0,6.2,3.4,6.2c1.5,0,3-0.3,4.5-0.8V78
+            c-1.4,0.5-3.3,0.8-5.6,0.8c-6.2,0-6.2-4.5-6.2-11.5h-0.2c-5.7,10.7-17.5,12.1-24.2,12.1c-4.4,0-20.8,0-20.8-16
+            c0-10.7,8.8-14.4,19.1-15l17.7-1.2c5.3-0.4,7.7-1,7.7-7.5c0-7.1-3.9-11.9-18.8-11.9c-13.4,0-17.5,4.3-18.9,13.7H248.1z
+            M290.4,48.5h-0.2c-1.1,1.2-3.8,2.5-8.1,2.8L265,52.5c-8.5,0.6-14.6,3.1-14.6,11c0,10.6,10.4,11.9,16.6,11.9
+            c10.1,0,23.5-4.7,23.5-17.2V48.5z" />
+                <polygon points="81,17.3 83.8,19 101.9,7.4 97.6,4.1   " />
+            </symbol>
+
+        </svg>
+    </div>
+
+
+    <header>
+
+        <div class="header-wrap">
+
+            <a href="/index.shtml" class="logo" id="main-logo" title="alik-put">
+                <div class="logo-wrap" id="logo-wrap">
+                    Alexander Putin
+                </div>
+            </a>
+            <div class="nav_right">
+                <a href="/about.shtml" class=" font_caps">About</a>
+
+                <a href="/works.html" class=" font_caps">Projects</a>
+            </div>
+        </div>
+
+        <div class="nav-menu" id="nav">
+
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="text">Menu</span>
+        </div>
+
+    </header>
+
+    <div class="menu-cover" id="menu-cover"></div>
+    <div class="menu-overlay" id="menu-overlay"></div>
+
+
+
+    <div id="menuNav" class="menu">
+
+
+        <div class="nav-menu close" id="navClose">
+            <span class="line"></span>
+        </div>
+
+        <div class="mid_line"></div>
+
+
+        <div class="menu_content" id="le_nav">
+            <ol class="grid g3">
+                <li class="">
+                    <a href="/" class="inner_link">Home</a>
+                </li>
+
+                <li class="">
+                    <a href="/works.html" class="inner_link">Projects <sup>06</sup></a>
+                </li>
+
+                <li class="">
+                    <a href="/expertise" class="inner_link">Experience <sup>03</sup></a>
+                </li>
+
+                <li class="">
+                    <a href="/about.html" class="inner_link">About</a>
+                </li>
+
+
+                <li class="">
+                    <a href="/cv.html" class="inner_link">CV <sup></sup></a>
+                </li>
+                <li class="mobile_link">
+                    <a href="mailto:putin.al@phystech.edu" title="Contact Me" class="">Contact Me</a>
+                </li>
+
+
+            </ol>
+
+            <div class="address">
+                <div class="text">
+                    <a href="/sg" title="Alexander Putin — Programmer developer" class="inner_link">
+                        <h5>Moscow</h5>
+                    </a>
+
+                    <h5 class="twocol">
+                        <div class="twocol_col">
+                            <a href="/awards" title="Awards" class="inner_link">Projects <sup>06</sup></a>
+                            <a href="/brands" title="Brands" class="inner_link">Experience <sup>02</sup></a>
+                            <a href="/about.html" title="Careers" class="inner_link">About <sup></sup></a>
+                        </div>
+                        <div class="twocol_col">
+                            <a href="mailto:putin.al@phystech.edu" title="Contact Me" class="">Contact Me</a>
+                            <!--                        <a href="https://transform.fleava.com" target="_blank" rel="noopener noreferrer" title="Transform with Fleava" class="">Transform &nbsp; &#8594;</a>-->
+
+                        </div>
+                    </h5>
+
+                    <p>
+                        <br>
+                        <a class="" href="https://www.instagram.com/alik_put/" target="_blank" rel="noopener noreferrer"
+                            title="Me on Instagram">Ig &nbsp; &nbsp;</a>
+                        <a class="" href="https://www.linkedin.com/in/alexander-p-6a3b07200/" target="_blank"
+                            rel="noopener noreferrer" title="Me on LinkedIn">In &nbsp; &nbsp;</a>
+                        <a class="" href="https://vk.com/alik_put" target="_blank" rel="noopener noreferrer"
+                            title="Me on VK">VK &nbsp; &nbsp;</a>
+                        <a class="" href="https://t.me/alik_put" target="_blank" rel="noopener noreferrer"
+                            title="Me on Telegram">Tg &nbsp; &nbsp;</a><br>
+                        <a class="inner_link" href="/terms">Terms. &nbsp; &nbsp;</a>
+                        <a class="inner_link" href="/sitemap">Sitemap.</a><br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div id="load_overlay" class="load_overlay"></div>
+
+
+    <div id="dynamicLoad" class="dynamic_load">
+        <div class="progress">
+            <div class="bar" id="dynamicBar"></div>
+        </div>
+    </div>
+
+
+    <div id="barba-wrapper">
+        <div class="barba-container">
+            <div data-scroll-container>
+                <div id="main">
+
+
+                    <div class="header_animate header_animate_pre" data-scroll-section>
+
+                        <section class="section small-pb section__header ">
+
+                            <div class="square_banner" style="background-color:#000">
+                                <div class="image_reveal">
+                                    <div class="background-image" data-scroll data-scroll-speed="-2"
+                                        data-bg="url('/assets/img/about/banner.jpg')"></div>
+                                    <div class="cover"></div>
+                                </div>
+                            </div>
+
+                            <div class="pre_animate">
+                                <div class="q-container container-inner">
+                                    <div class="columns">
+                                        <div class="column menu_fade">
+                                            <h1 class="xlarge">
+                                                <span class="reveal_wrap"><span class="pre_reveal">Hello.</span></span>
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="q-container container-inner">
+
+                                <div class="columns">
+                                    <div class="column menu_fade">
+                                        <h6 class="font_caps"><span class="reveal_wrap"><span class="reveal_item">/
+                                                    About</span></span></h6>
+                                        <h2 class="long">
+
+                                            <span class="reveal_wrap"><span class="reveal_item">My name is
+                                                    Alexander</span></span>
+                                            <!--                                        <span class="reveal_wrap"><span class="reveal_item"><a href="/awards">and</a>—winning <a-->
+                                            <!--                                                href="/works">Products</a>,</span></span>-->
+                                            <span class="reveal_wrap"><span class="reveal_item">and I am a
+                                                    student</span></span>
+                                            <span class="reveal_wrap"><span class="reveal_item">at <a
+                                                        href="/mipt">MIPT</a>, who</span></span>
+                                            <span class="reveal_wrap"><span class="reveal_item">likes to implement
+                                                    various <a href="/projects">Ideas</a>.</span></span>
+                                        </h2>
+                                        <h6 class="font_caps"><span class="reveal_wrap"><span class="reveal_item">Scroll
+                                                    Down</span></span>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                    <br><br><br><br><br><br><br><br>
+                    <section class="section no-p grey" data-scroll-section>
+                        <div class="offset_banner reveal" style="background-color:#000" data-scroll>
+                            <div class="image_reveal">
+                                <div class="background-image" data-scroll data-scroll-speed="-3"
+                                    data-bg="url('/assets/img/about/definition_clear2.jpg')"></div>
+                            </div>
+                        </div>
+
+                    </section>
+
+
+                    <section class="section no-pt grey" data-scroll-section
+                        style="font-size: 1.25rem; font-weight: 300; padding: 0 0 0;">
+                        <div class="q-container container-inner" style="width: 100%;">
+                            <div class="columns menu_fade short_container reveal" style="width: 100%;">
+
+                                <div class="column q-2-3" style="width: 100%;">
+                                    <div>
+                                        <p class="lead" style="width: 1000px; max-width: 100%;">
+                                            I'm 20 y.o. and since childhood I was interested in physics and math.
+                                            <br>
+
+                                            I have 2 musician education (violin & guitar), the title Candidate of
+                                            Master of Sports in polyathlon and actively won competitions.
+                                            At MIPT I became interested in programming and found that it is a
+                                            very interesting to me.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="section x_hide grey" data-scroll-section style="padding: 100px 0 10px;">
+                        <div class="q-container container-inner menu_fade">
+                            <div class="columns short_container reveal">
+                                <div class="column q-2-3">
+                                    <h6 class="font_caps">/ Different Aspects</h6>
+                                    <h3 class="">Different hobbies make me happy</h3>
+
+                                </div>
+                                <div class="column q-1-3 flex_end flex_right">
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="q-container container-inner overflow  menu_fade">
+                            <div class="columns">
+                                <div class="column">
+
+
+                                    <div class="carousel values_slide">
+                                        <div class="carousel__planes" data-hover="Drag">
+                                            <div class="carousel__plane">
+                                                <div class="carousel__image">
+                                                    <div class="background-image"
+                                                        data-bg="url('/assets/img/about/definition_new1.jpg')"></div>
+                                                </div>
+                                                <div class="carousel__text">
+                                                    <span class="carousel__num font_caps">/ 01</span>
+                                                    <h4>Programming.</h4>
+                                                    <p>Having come into my life 2 years ago,
+                                                        it has become an integral part of it.
+                                                        Different projects (personal and team), competitions and work
+                                                        finally confirmed it.
+                                                        <br>
+                                                        I know Python, C++, Java, Solidity, HTML and CSS.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel__plane">
+                                                <div class="carousel__image">
+                                                    <div class="background-image"
+                                                        data-bg="url('/assets/img/about/artek.jpg')"></div>
+                                                </div>
+                                                <div class="carousel__text">
+                                                    <span class="carousel__num font_caps">/ 02</span>
+                                                    <h4>Sport.</h4>
+                                                    <p>Sport allow us to distract ourselves from problems
+                                                        and mentally unload. I'm engaged polyathlon and have the title
+                                                        of candidate master of Sports. This sport includes swimming,
+                                                        running,
+                                                        shooting and throwing.</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel__plane">
+                                                <div class="carousel__image">
+                                                    <div class="background-image"
+                                                        data-bg="url('/assets/img/about/violin.jpg')"></div>
+                                                </div>
+                                                <div class="carousel__text">
+                                                    <span class="carousel__num font_caps">/ 03</span>
+                                                    <h4>Music.</h4>
+                                                    <p>
+                                                        I have 2 musician education: violin and guitar.
+                                                        For 8 years I studied at a music school and
+                                                        participated in various competitions.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel__plane">
+                                                <div class="carousel__image">
+                                                    <div class="background-image"
+                                                        data-bg="url('/assets/img/about/study.jpg')"
+                                                        style="margin-right: 100px;"></div>
+                                                </div>
+                                                <div class="carousel__text">
+                                                    <span class="carousel__num font_caps">/ 04</span>
+                                                    <h4>Education.</h4>
+                                                    <p>
+                                                        I graduated from the Seversk Gymnasium, physics and mathematics
+                                                        class.
+                                                        Now I am studying at MIPT in the direction of applied
+                                                        mathematics and physics
+                                                        at the Department of Computational Physics.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="carousel__progress">
+                                            <div class="carousel__progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section class="section clients motion_hover" data-scroll-section data-scroll-section-id="section2"
+                        style="opacity: 1; pointer-events: all; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -2760, 0, 1);"
+                        data-scroll-section-inview="">
+                        <h6 class="font_caps center_title menu_fade">/ Awards</h6>
+                        <div class="q-container container-inner">
+                            <div class="columns short_container reveal reveal__on">
+                                <div class="column menu_fade clients__list motion_hover_container">
+                                    <div class="clients__item link">
+                                        <span class="year font_caps">2015</span>
+                                        <ul>
+                                            <li>
+                                                What? Where? When? (2nd pl)
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/www_2015_page-0001.jpg" alt="" />
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="clients__item">
+                                        <span class="year font_caps link">2016</span>
+                                        <ul>
+                                            <li class="link">
+                                                <a href="https://zv.susu.ru/" target="_blank" rel="noopener noreferrer"
+                                                    class="hover-target">
+                                                    Olympics Star
+                                                </a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/star_2017.jpg" alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://olymp.mephi.ru/rosatom/about"
+                                                    target="_blank" rel="noopener noreferrer">Rosatom Olympiad - phys
+                                                    (3rd pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/ros_phys_2017_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://olymp.mephi.ru/rosatom/about"
+                                                    target="_blank" rel="noopener noreferrer">Rosatom Olympiad - math
+                                                    (2nd pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/ros_math_2017_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a
+                                                    href="https://patriotsport.moscow/competition/prezidentskie-sportivnye-igry/"
+                                                    target="_blank" rel="noopener noreferrer">Presidential Sports
+                                                    Games</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/prez_2016.jpg" alt="" />
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="clients__item">
+                                        <span class="year font_caps">2017</span>
+                                        <ul>
+                                            <li class="link"><a href="https://olympiad.gazprom.ru/" target="_blank"
+                                                    rel="noopener noreferrer">
+                                                    Olympiad "Gazprom" (2nd pl)
+                                                </a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/gazr_2017.jpg" alt="" />
+                                            </li>
+                                            <li class="link"><a href="http://olympiada-sfo.nstu.ru/" target="_blank"
+                                                    rel="noopener noreferrer">Olympiad "The future of Siberia" (2nd
+                                                    pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/fut_phys_2017.jpg" alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://olymp.mephi.ru/rosatom/about"
+                                                    target="_blank" rel="noopener noreferrer">Rosatom Olympiad - math
+                                                    (3rd pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/ros_math_2018_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://kvantoriumtomsk.ru/" target="_blank"
+                                                    rel="noopener noreferrer">Quantorium</a>
+                                                <img class="motion_hover__img" data-src="" alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://olympiads.mccme.ru/matboi/pravila.htm"
+                                                    target="_blank" rel="noopener noreferrer">Regional tournament on
+                                                    mathematical
+                                                    fights</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/math_f_2017_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a
+                                                    href="http://www.depms.ru/News/Sbornaya-tomskoy-oblasti-stala-pervoy-na-rossiyskoy-spartakiade-molodezhi-doprizyvnogo-vozrasta"
+                                                    target="_blank" rel="noopener noreferrer">Spartakiad of Russia (1st
+                                                    pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/spart_2017_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a
+                                                    href="https://dmpfs.tomsk.gov.ru/news/front/view/id/22070"
+                                                    target="_blank" rel="noopener noreferrer">GTO regional competitions
+                                                    (1st
+                                                    pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/gto_2017_page-0001.jpg" alt="" />
+                                            </li>
+                                            <li class="link"><a
+                                                    href="https://www.gto.ru/news/06112017-itogi-iii-festivalya-vserossijskogo-fizkulturno-sportivnogo"
+                                                    target="_blank" rel="noopener noreferrer">All - Russian GTO
+                                                    competitions (2nd
+                                                    pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/artek_page-0001.jpg" alt="" />
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="clients__item">
+                                        <span class="year font_caps link">2018</span>
+                                        <ul>
+                                            <li class="link"><a
+                                                    href="https://duma.tomsk.ru/content/laureaty_premii_zakonodatelnoj_dumy_tomskoj_oblasti_2017_goda"
+                                                    target="_blank" rel="noopener noreferrer">Award of the Duma of the
+                                                    Tomsk region</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/duma_2018_page-0001.jpg" alt="" />
+                                            </li>
+                                            <li class="link"><a
+                                                    href="https://depvpo.tomsk.gov.ru/contests/front/view?id=459"
+                                                    target="_blank" rel="noopener noreferrer">Tomsk region award</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/tomsk_reg_2018_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://vk.com/talanty_sibiri" target="_blank"
+                                                    rel="noopener noreferrer">The best project of the forum "Talents of
+                                                    Siberia"</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/peplus_2018_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link">Regional project forum (2nd pl)
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/forum_2018_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://sammat.samgtu.ru/sammat" target="_blank"
+                                                    rel="noopener noreferrer">SAMMAT - math (3rd pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/sammat_2018_page-0001 (1).jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://abiturient.tsu.ru/ru/content/ormo"
+                                                    target="_blank" rel="noopener noreferrer">ORIO of Tomsk region</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/orio_2018_page-0001.jpg" alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://sport-v-tomske.ru/press/news/1133"
+                                                    target="_blank" rel="noopener noreferrer">Running 4 km of Udut
+                                                    memory (1st pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/udut_2018_page-0001.jpg" alt="" />
+                                            </li>
+                                            <li class="link">Sports contest of youth of the Tomsk
+                                                region (1st pl)
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/molod_spart_2018_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link">Polyathlon regional competitions (1st pl)
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/ach_2018_page-0001.jpg" alt="" />
+                                            </li>
+                                            <li class="link">GTO regional competitions (1st pl)
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/gto_2018_page-0001.jpg" alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://vk.com/wall-118748133_900" target="_blank"
+                                                    rel="noopener noreferrer">Polyathlon World Championship (5th pl)</a>
+                                                <img class="motion_hover__img" data-src="" alt="" />
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="clients__item">
+                                        <span class="year font_caps link">2019</span>
+                                        <ul>
+                                            <li>District polyathlon competitions (1st place)</li>
+                                            <li class="link"><a href="http://distolymp2.spbu.ru/olymp/" target="_blank"
+                                                    rel="noopener noreferrer">SPbU physics (2nd pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/spbu_2019_page-0001.jpg" alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://sammat.samgtu.ru/sammat" target="_blank"
+                                                    rel="noopener noreferrer">SAMMAT - math (3rd pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/sammat_2019_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://olimpiadakurchatov.ru/" target="_blank"
+                                                    rel="noopener noreferrer">Kurchatov Olympiad - math (2nd pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/kurch_2019_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://olympiad.gazprom.ru/winner/70618"
+                                                    target="_blank" rel="noopener noreferrer">
+                                                    Olympiad "Gazprom" (1st pl)
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="clients__item">
+                                        <span class="year font_caps link">2020</span>
+                                        <ul>
+                                            <li class="link"><a
+                                                    href="https://www.coursera.org/learn/oop-patterns-python"
+                                                    target="_blank" rel="noopener noreferrer">Python course</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/python_2020_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li>MIPT swimming of the century</li>
+                                            <li class="link"><a href="https://conf.mipt.ru/" target="_blank"
+                                                    rel="noopener noreferrer">MIPT conference</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/2_page-0001.jpg" alt="" />
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+                                    <div class="clients__item">
+                                        <span class="year font_caps link">2022</span>
+                                        <ul>
+                                            <li><a href="https://definitionhack.io/" target="_blank"
+                                                    rel="noopener noreferrer">Definition Hachathon</a>
+                                            </li>
+                                            <li class="link"><a href="https://www.netcracker.com/" target="_blank"
+                                                    rel="noopener noreferrer">Netcracker course</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/netcracker_page-0001.jpg"
+                                                    alt="" />
+                                            </li>
+                                            <li class="link"><a href="https://tfalliance.ru/" target="_blank"
+                                                    rel="noopener noreferrer">Team Force alliance Hack (5th pl)</a>
+                                                <img class="motion_hover__img"
+                                                    data-src="assets/img/about/awards/у 3 46_00001.jpg" alt="" />
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!--#include virtual="includes/footer.html"-->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
