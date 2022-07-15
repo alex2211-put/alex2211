@@ -5699,6 +5699,10 @@ body.touch .carousel .carousel__planes {
     animation-fill-mode: forwards;
 }
 
+.first_im {
+    animation: show 3s 1;
+}
+
 @keyframes show {
     0% {
         opacity: 0;
