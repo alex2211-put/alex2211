@@ -28,25 +28,6 @@
     <!-- /Yandex.Metrika counter -->
 
     <!-- FAVICONS -->
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/img/icons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/assets/img/icons/ms-icon-144x144.png">
-
-
     <!-- OG IMAGES -->
 
     <meta name="robots" content="noodp" />
@@ -67,24 +48,20 @@
     <meta name="twitter:creator" content="@alik-put" />
 
     <!-- TRACKING CODES -->
-    <meta name="google-site-verification" content="bsnNPmFR_FEMdAgvRLb4RP8_z4SDLWXIAGpdHyp87Kg" />
 
+    <meta name="google-site-verification" content="bsnNPmFR_FEMdAgvRLb4RP8_z4SDLWXIAGpdHyp87Kg" />
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
-
         gtag('js', new Date());
         gtag('config', 'UA-20462557-3');
-        gtag('config', 'AW-793226681');
-
-
+            // gtag('config', 'AW-793226681', {cookie_flags: 'SameSite=None;Secure'});
     </script>
 
 
-    <!-- PRELOADS -->
+
     <link rel="preload" href="/assets/css/app.css" as="style">
     <link rel="preload" href="/assets/js/scripts.js" as="script">
     <link rel="preload" href="/img/fav_rem.png" as="image">
@@ -105,12 +82,13 @@
     <script defer src="/assets/js/scripts.js"></script>
 </head>
 
-
 <body class="  is-loading">
 
     <div class="cursor" data-cursor>
         <div class="inner">
-            <div class="circle"><span class="cursor_text"></span></div>
+            <div class="circle">
+                <span class="cursor_text"></span>
+            </div>
         </div>
     </div>
 
@@ -123,11 +101,6 @@
                     Alexander Putin
                 </div>
             </a>
-            <div class="nav_right">
-                <a href="/about.html" class=" font_caps">About</a>
-
-                <a href="/projects.html" class=" font_caps">Projects</a>
-            </div>
         </div>
 
         <div class="nav-menu" id="nav">
@@ -138,43 +111,87 @@
         </div>
 
     </header>
-
     <div class="menu-cover" id="menu-cover"></div>
-    <div class="menu-overlay" id="menu-overlay"></div>
+
+    <div class="menu__bg">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+            <defs>
+                <radialGradient id="Gradient1" cx="50%" cy="50%" fx="10%" fy="50%" r=".5">
+                    <animate attributeName="fx" dur="64s" values="0%;3%;0%" repeatCount="indefinite" />
+                    <stop offset="0%" stop-color="#777" />
+                    <stop offset="100%" stop-color="#0000" />
+                </radialGradient>
+                <radialGradient id="Gradient2" cx="50%" cy="50%" fx="10%" fy="50%" r=".5">
+                    <animate attributeName="fx" dur="47s" values="0%;3%;0%" repeatCount="indefinite" />
+                    <stop offset="0%" stop-color="#000" />
+                    <stop offset="100%" stop-color="#8880" />
+                </radialGradient>
+                <radialGradient id="Gradient3" cx="50%" cy="50%" fx="50%" fy="50%" r=".5">
+                    <animate attributeName="fx" dur="43s" values="0%;3%;0%" repeatCount="indefinite" />
+                    <stop offset="0%" stop-color="#000" />
+                    <stop offset="100%" stop-color="#0000" />
+                </radialGradient>
+            </defs>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient1)">
+                <animate attributeName="x" dur="40s" values="25%;0%;25%" repeatCount="indefinite" />
+                <animate attributeName="y" dur="42s" values="0%;25%;0%" repeatCount="indefinite" />
+                <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="34s"
+                    repeatCount="indefinite" />
+            </rect>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient2)">
+                <animate attributeName="x" dur="46s" values="-25%;0%;-25%" repeatCount="indefinite" />
+                <animate attributeName="y" dur="48s" values="0%;50%;0%" repeatCount="indefinite" />
+                <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="36s"
+                    repeatCount="indefinite" />
+            </rect>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient3)">
+                <animate attributeName="x" dur="50s" values="0%;25%;0%" repeatCount="indefinite" />
+                <animate attributeName="y" dur="52s" values="0%;25%;0%" repeatCount="indefinite" />
+                <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="38s"
+                    repeatCount="indefinite" />
+            </rect>
+        </svg>
+
+    </div>
 
 
+    <nav id="menuNav" class="menu">
 
-    <div id="menuNav" class="menu">
-
-
-        <div class="nav-menu close" id="navClose">
-            <span class="line"></span>
-        </div>
-
-        <div class="mid_line"></div>
-
-
-        <div class="menu_content" id="le_nav">
-            <ol class="grid g3">
-                <li class="">
-                    <a href="/" class="inner_link">Home</a>
+        <div class="menu_content menu__hover">
+            <ol>
+                <li class="menu__item">
+                    <a href="/" class="inner_link">
+                        <span class="menu__item-text"><span class="menu__item-textinner">Home <sup></sup></span></span>
+                    </a>
                 </li>
 
-                <li class="">
+
+                <li class="menu__item">
                     <a href="/projects.html" class="inner_link">Projects <sup>06</sup></a>
                 </li>
 
-                <li class="">
+                <li class="menu__item">
                     <a href="/expertise" class="inner_link">Experience <sup>03</sup></a>
                 </li>
 
-                <li class="">
+                <li class="menu__item">
                     <a href="/about.html" class="inner_link">About</a>
                 </li>
 
 
-                <li class="">
+                <li class="menu__item">
                     <a href="/cv.html" class="inner_link">CV <sup></sup></a>
+                </li>
+
+                <li class="mobile_link first">
+                    <a href="/projects.html" class="inner_link">Projects <sup>06</sup></a>
+                </li>
+                <li class="mobile_link">
+                    <a href="/expertise" class="inner_link">Experience <sup>03</sup></a>
+                </li>
+
+                <li class="mobile_link">
+                    <a href="/about.html" class="inner_link">About</a>
                 </li>
                 <li class="mobile_link">
                     <a href="mailto:putin.al@phystech.edu" title="Contact Me" class="">Contact Me</a>
@@ -184,33 +201,33 @@
             </ol>
 
             <div class="address">
-                <div class="text">
+                <div class="address__col">
                     <a href="/sg" title="Alexander Putin — Programmer developer" class="inner_link">
-                        <h5>Moscow</h5>
+                        Moscow
                     </a>
+                </div>
 
-                    <h5 class="twocol">
-                        <div class="twocol_col">
-                            <a href="/projects.html" title="Projects" class="inner_link">Projects <sup>06</sup></a>
-                            <a href="/brands" title="Brands" class="inner_link">Experience <sup>02</sup></a>
-                            <a href="/about.html" title="About" class="inner_link">About <sup></sup></a>
-                        </div>
-                        <div class="twocol_col">
-                            <a href="mailto:putin.al@phystech.edu" title="Contact Me" class="">Contact Me</a>
-                            <!--                        <a href="https://transform.fleava.com" target="_blank" rel="noopener noreferrer" title="Transform with Fleava" class="">Transform &nbsp; &#8594;</a>-->
+                <div class="address__col address__col_col">
+                    <div class="address__col1">
+                        <a href="/projects.html" title="Projects" class="inner_link">Projects <sup>06</sup></a>
+                        <a href="/brands" title="Brands" class="inner_link">Experience <sup>02</sup></a>
+                        <a href="/about.html" title="About" class="inner_link">About <sup></sup></a>
+                    </div>
+                    <div class="address__col2">
+                        <a href="mailto:putin.al@phystech.edu" title="Contact Me" class="">Contact Me</a>
+                    </div>
+                </div>
 
-                        </div>
-                    </h5>
-
+                <div class="address__col">
                     <p>
                         <br>
-                        <a class="" href="https://www.instagram.com/alik_put/" target="_blank" rel="noopener noreferrer"
-                            title="Me on Instagram">Ig &nbsp; &nbsp;</a>
-                        <a class="" href="https://www.linkedin.com/in/alexander-putin-6a3b07200/" target="_blank"
+                        <a class="social" href="https://www.instagram.com/alik_put/" target="_blank"
+                            rel="noopener noreferrer" title="Me on Instagram">Ig &nbsp; &nbsp;</a>
+                        <a class="social" href="https://www.linkedin.com/in/alexander-putin-6a3b07200/" target="_blank"
                             rel="noopener noreferrer" title="Me on LinkedIn">In &nbsp; &nbsp;</a>
-                        <a class="" href="https://vk.com/alik_put" target="_blank" rel="noopener noreferrer"
+                        <a class="social" href="https://vk.com/alik_put" target="_blank" rel="noopener noreferrer"
                             title="Me on VK">VK &nbsp; &nbsp;</a>
-                        <a class="" href="https://t.me/alik_put" target="_blank" rel="noopener noreferrer"
+                        <a class="social" href="https://t.me/alik_put" target="_blank" rel="noopener noreferrer"
                             title="Me on Telegram">Tg &nbsp; &nbsp;</a><br>
                         <a class="inner_link" href="/sitemap">Sitemap.</a><br><br>
                     </p>
@@ -218,12 +235,10 @@
             </div>
         </div>
 
-
-    </div>
+    </nav>
 
 
     <div id="load_overlay" class="load_overlay"></div>
-
 
     <div id="dynamicLoad" class="dynamic_load">
         <div class="progress">
@@ -231,59 +246,58 @@
         </div>
     </div>
 
-
     <div id="barba-wrapper">
         <div class="barba-container">
             <div data-scroll-container>
-                <div id="main">
+                <main id="main">
 
 
                     <div class="header_animate header_animate_pre" data-scroll-section>
 
-                        <section class="section small-pb section__header ">
-
-                            <div class="square_banner" style="background-color:#000">
-                                <div class="image_reveal">
-                                    <div class="background-image" data-scroll data-scroll-speed="-2"
-                                        data-bg="url('/assets/img/about/banner.jpg')"></div>
-                                    <div class="cover"></div>
-                                </div>
-                            </div>
-
+                        <section class="section section__header img_brightness">
                             <div class="pre_animate">
                                 <div class="q-container container-inner">
-                                    <div class="columns">
+                                    <div class="columns short_container">
                                         <div class="column menu_fade">
-                                            <h1 class="xlarge">
-                                                <span class="reveal_wrap"><span class="pre_reveal">Hello.</span></span>
-                                            </h1>
+                                            <h2 class="xlarge">
+                                                <span class="reveal_wrap"><span class="pre_reveal">H</span></span>
+                                                <span class="reveal_wrap"><span class="pre_reveal">e</span></span>
+                                                <span class="reveal_wrap"><span class="pre_reveal">l</span></span>
+                                                <span class="reveal_wrap"><span class="pre_reveal">l</span></span>
+                                                <span class="reveal_wrap"><span class="pre_reveal">o</span></span>
+                                                <span class="reveal_wrap"><span class="pre_reveal">.</span></span>
+                                            </h2>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="q-container container-inner">
 
-                                <div class="columns">
+                                <div class="columns short_container">
                                     <div class="column menu_fade">
-                                        <h6 class="font_caps"><span class="reveal_wrap"><span class="reveal_item">/
-                                                    About</span></span></h6>
-                                        <h2 class="long">
-
-                                            <span class="reveal_wrap"><span class="reveal_item">My name is
-                                                    Alexander</span></span>
-                                            <!--                                        <span class="reveal_wrap"><span class="reveal_item"><a href="/awards">and</a>—winning <a-->
-                                            <!--                                                href="/works">Products</a>,</span></span>-->
-                                            <span class="reveal_wrap"><span class="reveal_item">and I am a
-                                                    student</span></span>
-                                            <span class="reveal_wrap"><span class="reveal_item">at <a
-                                                        href="/mipt">MIPT</a>, who</span></span>
-                                            <span class="reveal_wrap"><span class="reveal_item">likes to implement
-                                                    various <a href="/projects.html">Ideas</a>.</span></span>
-                                        </h2>
-                                        <h6 class="font_caps"><span class="reveal_wrap"><span class="reveal_item">Scroll
-                                                    Down</span></span>
-                                        </h6>
+                                        <h6 class="font_caps" data-splitting>/ About</h6>
+                                        <h1 class="lead" data-splitting>My name is
+                                            Alexander &amp; <br>I am a
+                                            student at MIPT, <br> who likes to implement various  Ideas.</h1>
                                     </div>
+                                </div>
+
+                                <div class="columns short_container menu_fade reveal_fade">
+                                    <div class="column q-1-3">
+                                        <div class="ornament static pt" data-scroll data-scroll-speed="-0.3"
+                                            data-scroll-offset="-100%,-200%">
+                                            <img src="./assets/img/home/new.svg" alt="Fleava Ornament" />
+                                        </div>
+                                    </div>
+                                    <div class="column q-2-3">
+                                        <p class="lead pt">I'm 20 y.o. and since childhood I was 
+                                            interested in physics and math.<br>
+                                            I have 2 musician education (violin & guitar), the title Candidate of
+                                            Master of Sports in polyathlon and actively won competitions.
+                                            At MIPT I became interested in programming and found that it is a
+                                            very interesting to me.</p>
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -291,147 +305,124 @@
 
                     </div>
 
-                    <br><br><br><br><br><br><br><br>
-                    <section class="section no-p grey" data-scroll-section>
-                        <div class="offset_banner reveal" style="background-color:#000" data-scroll>
-                            <div class="image_reveal">
-                                <div class="background-image" data-scroll data-scroll-speed="-3"
-                                    data-bg="url('/assets/img/about/definition_clear2.jpg')"></div>
-                            </div>
-                        </div>
-
-                    </section>
-
-
-                    <section class="section no-pt grey" data-scroll-section
-                        style="font-size: 1.25rem; font-weight: 300; padding: 0 0 0;">
-                        <div class="q-container container-inner" style="width: 100%;">
-                            <div class="columns menu_fade short_container reveal" style="width: 100%;">
-
-                                <div class="column q-2-3" style="width: 100%;">
-                                    <div>
-                                        <p class="lead" style="width: 1000px; max-width: 100%;">
-                                            I'm 20 y.o. and since childhood I was interested in physics and math.
-                                            <br>
-
-                                            I have 2 musician education (violin & guitar), the title Candidate of
-                                            Master of Sports in polyathlon and actively won competitions.
-                                            At MIPT I became interested in programming and found that it is a
-                                            very interesting to me.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-
-                    <section class="section x_hide grey" data-scroll-section style="padding: 100px 0 10px;">
-                        <div class="q-container container-inner menu_fade">
-                            <div class="columns short_container reveal">
+                    <section class="section1 small-pb x_hide color_creme" data-scroll-section>
+                        <div class="q-container container-inner menu_fade" data-scroll data-scroll-call="revStag"
+                            data-scroll-offset="10%">
+                            <div class="columns short_container">
                                 <div class="column q-2-3">
-                                    <h6 class="font_caps">/ Different Aspects</h6>
-                                    <h3 class="">Different hobbies make me happy</h3>
-
-                                </div>
-                                <div class="column q-1-3 flex_end flex_right">
-
+                                    <span class="font_caps" data-splitting>/ Different Aspects</span>
+                                    <h3 data-splitting>Different hobbies make me happy
+                                    </h3>
 
                                 </div>
                             </div>
                         </div>
 
-                        <div class="q-container container-inner overflow  menu_fade">
+                        <!-- ========= CAROUSEL ========= -->
+
+                        <div class="q-container container-inner overflow menu_fade">
                             <div class="columns">
-                                <div class="column">
+                                <div class="column" style="position:relative">
 
+                                    <div class="carousel reveal" data-scroll data-scroll-offset="0">
+                                        <div class="carousel__planes">
+                                            <!--data-scroll data-scroll-speed="1" data-scroll-direction="horizontal"-->
 
-                                    <div class="carousel values_slide">
-                                        <div class="carousel__planes" data-hover="Drag">
-                                            <div class="carousel__plane">
-                                                <div class="carousel__image">
-                                                    <div class="background-image"
-                                                        data-bg="url('/assets/img/about/definition_new1.jpg')"></div>
+                                            <!-- === SERVICE 1 === -->
+
+                                            <div class="carousel__plane reveal_carousel">
+                                                <div class="carousel__image" data-hover="Drag">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="/assets/img/about/definition_new1.webp">
+                                                        <img src="/assets/img/about/definition_new1.jpg"
+                                                            alt="">
+                                                    </picture>
                                                 </div>
-                                                <div class="carousel__text">
-                                                    <span class="carousel__num font_caps">/ 01</span>
+                                                <a href="/expertise/digital-strategy" class="carousel__text"
+                                                    data-hover="None" data-color="var(--strategy-color)">
                                                     <h4>Programming.</h4>
                                                     <p>Having come into my life 2 years ago,
                                                         it has become an integral part of it.
                                                         Different projects (personal and team), competitions and work
                                                         finally confirmed it.
                                                         <br>
-                                                        I know Python, C++, Java, Solidity, HTML and CSS.
-                                                    </p>
-                                                </div>
+                                                        I know Python, C++, Java, Solidity, HTML and CSS.</p>
+                                                </a>
                                             </div>
 
-                                            <div class="carousel__plane">
-                                                <div class="carousel__image">
-                                                    <div class="background-image"
-                                                        data-bg="url('/assets/img/about/artek.jpg')"></div>
+                                            <!-- === SERVICE 2 === -->
+
+                                            <div class="carousel__plane reveal_carousel">
+                                                <div class="carousel__image" data-hover="Drag">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="/assets/img/about/artek.webp">
+                                                        <img src="/assets/img/about/artek.jpg"
+                                                            alt="">
+                                                    </picture>
                                                 </div>
-                                                <div class="carousel__text">
-                                                    <span class="carousel__num font_caps">/ 02</span>
+                                                <a href="/expertise/branding" class="carousel__text" data-hover="None"
+                                                    data-color="var(--branding-color)">
                                                     <h4>Sport.</h4>
                                                     <p>Sport allow us to distract ourselves from problems
                                                         and mentally unload. I'm engaged polyathlon and have the title
                                                         of candidate master of Sports. This sport includes swimming,
                                                         running,
                                                         shooting and throwing.</p>
-                                                </div>
+                                                </a>
                                             </div>
 
-                                            <div class="carousel__plane">
-                                                <div class="carousel__image">
-                                                    <div class="background-image"
-                                                        data-bg="url('/assets/img/about/violin.jpg')"></div>
+                                            <!-- === SERVICE 3 === -->
+
+                                            <div class="carousel__plane reveal_carousel">
+                                                <div class="carousel__image" data-hover="Drag">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="/assets/img/about/violin.webp">
+                                                        <img src="/assets/img/about/violin.jpg"
+                                                            alt="">
+                                                    </picture>
                                                 </div>
-                                                <div class="carousel__text">
-                                                    <span class="carousel__num font_caps">/ 03</span>
+                                                <a href="/expertise/development" class="carousel__text"
+                                                    data-hover="None" data-color="var(--development-color)">
                                                     <h4>Music.</h4>
-                                                    <p>
-                                                        I have 2 musician education: violin and guitar.
+                                                    <p>I have 2 musician education: violin and guitar.
                                                         For 8 years I studied at a music school and
-                                                        participated in various competitions.
-                                                    </p>
-                                                </div>
+                                                        participated in various competitions.</p>
+                                                </a>
                                             </div>
 
-                                            <div class="carousel__plane">
-                                                <div class="carousel__image">
-                                                    <div class="background-image"
-                                                        data-bg="url('/assets/img/about/study.jpg')"
-                                                        style="margin-right: 100px;"></div>
+                                            <!-- === SERVICE 4 === -->
+
+                                            <div class="carousel__plane reveal_carousel">
+                                                <div class="carousel__image" data-hover="Drag">
+                                                    <picture>
+                                                        <source type="image/webp"
+                                                            srcset="/assets/img/about/study.webp">
+                                                        <img src="/assets/img/about/study.jpg"
+                                                            alt="User Experience services by Fleava Digital Agency">
+                                                    </picture>
                                                 </div>
-                                                <div class="carousel__text">
-                                                    <span class="carousel__num font_caps">/ 04</span>
+                                                <a href="/expertise/ux" class="carousel__text" data-hover="None"
+                                                    data-color="var(--ux-color)">
                                                     <h4>Education.</h4>
-                                                    <p>
-                                                        I graduated from the Seversk Gymnasium, physics and mathematics
+                                                    <p>I graduated from the Seversk Gymnasium, physics and mathematics
                                                         class.
                                                         Now I am studying at MIPT in the direction of Applied
                                                         mathematics and physics
-                                                        at the Department of Computational Physics.
-                                                    </p>
-                                                </div>
-
+                                                        at the Department of Computational Physics.</p>
+                                                </a>
                                             </div>
-
-                                        </div>
-
-                                        <div class="carousel__progress">
-                                            <div class="carousel__progress-bar"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
+
                     </section>
 
-                    <section class="section clients motion_hover" data-scroll-section data-scroll-section-id="section2"
-                        style="opacity: 1; pointer-events: all; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -2760, 0, 1);"
+                    <section class="section clients motion_hover not_mobile" data-scroll-section data-scroll-section-id="section2"
                         data-scroll-section-inview="">
                         <h6 class="font_caps center_title menu_fade">/ Awards</h6>
                         <div class="q-container container-inner">
@@ -442,7 +433,7 @@
                                         <ul>
                                             <li>
                                                 What? Where? When? (2nd pl)
-                                                <img class="motion_hover__img"
+                                                <img class="motion_hover__img" style="visibility: hidden;"
                                                     data-src="assets/img/about/awards/www_2015_page-0001.jpg" alt="" />
                                             </li>
                                         </ul>
@@ -456,20 +447,20 @@
                                                     class="hover-target">
                                                     Olympics Star
                                                 </a>
-                                                <img class="motion_hover__img"
+                                                <img class="motion_hover__img" style="visibility: hidden;"
                                                     data-src="assets/img/about/awards/star_2017.jpg" alt="" />
                                             </li>
                                             <li class="link"><a href="https://olymp.mephi.ru/rosatom/about"
                                                     target="_blank" rel="noopener noreferrer">Rosatom Olympiad - phys
                                                     (3rd pl)</a>
-                                                <img class="motion_hover__img"
+                                                <img class="motion_hover__img" style="visibility: hidden;"
                                                     data-src="assets/img/about/awards/ros_phys_2017_page-0001.jpg"
                                                     alt="" />
                                             </li>
                                             <li class="link"><a href="https://olymp.mephi.ru/rosatom/about"
                                                     target="_blank" rel="noopener noreferrer">Rosatom Olympiad - math
                                                     (2nd pl)</a>
-                                                <img class="motion_hover__img"
+                                                <img class="motion_hover__img" style="visibility: hidden;"
                                                     data-src="assets/img/about/awards/ros_math_2017_page-0001.jpg"
                                                     alt="" />
                                             </li>
@@ -477,7 +468,7 @@
                                                     href="https://patriotsport.moscow/competition/prezidentskie-sportivnye-igry/"
                                                     target="_blank" rel="noopener noreferrer">Presidential Sports
                                                     Games</a>
-                                                <img class="motion_hover__img"
+                                                <img class="motion_hover__img" style="visibility: hidden;"
                                                     data-src="assets/img/about/awards/prez_2016.jpg" alt="" />
                                             </li>
                                         </ul>
@@ -490,31 +481,31 @@
                                                     rel="noopener noreferrer">
                                                     Olympiad "Gazprom" (2nd pl)
                                                 </a>
-                                                <img class="motion_hover__img"
+                                                <img class="motion_hover__img" style="visibility: hidden;"
                                                     data-src="assets/img/about/awards/gazr_2017.jpg" alt="" />
                                             </li>
                                             <li class="link"><a href="http://olympiada-sfo.nstu.ru/" target="_blank"
                                                     rel="noopener noreferrer">Olympiad "The future of Siberia" (2nd
                                                     pl)</a>
-                                                <img class="motion_hover__img"
+                                                <img class="motion_hover__img" style="visibility: hidden;"
                                                     data-src="assets/img/about/awards/fut_phys_2017.jpg" alt="" />
                                             </li>
                                             <li class="link"><a href="https://olymp.mephi.ru/rosatom/about"
                                                     target="_blank" rel="noopener noreferrer">Rosatom Olympiad - math
                                                     (3rd pl)</a>
-                                                <img class="motion_hover__img"
+                                                <img class="motion_hover__img" style="visibility: hidden;"
                                                     data-src="assets/img/about/awards/ros_math_2018_page-0001.jpg"
                                                     alt="" />
                                             </li>
                                             <li class="link"><a href="https://kvantoriumtomsk.ru/" target="_blank"
                                                     rel="noopener noreferrer">Quantorium</a>
-                                                <img class="motion_hover__img" data-src="" alt="" />
+                                                <img class="motion_hover__img" style="visibility: hidden;" data-src="" alt="" />
                                             </li>
                                             <li class="link"><a href="https://olympiads.mccme.ru/matboi/pravila.htm"
                                                     target="_blank" rel="noopener noreferrer">Regional tournament on
                                                     mathematical
                                                     fights</a>
-                                                <img class="motion_hover__img"
+                                                <img class="motion_hover__img" style="visibility: hidden;"
                                                     data-src="assets/img/about/awards/math_f_2017_page-0001.jpg"
                                                     alt="" />
                                             </li>
@@ -685,72 +676,78 @@
                             </div>
                         </div>
                     </section>
+               </main>
+               <footer class="color_creme" data-scroll-section>
+
+                <div class="footer__background" data-scroll data-scroll-repeat data-scroll-speed="-6"
+                    data-scroll-offset="0">
+                    <div id="footerblob" class="blob">
+                        <canvas></canvas>
+                    </div>
+                </div>
 
 
-                    <footer data-scroll-section>
 
-                        <div class="footer__background background-image" data-scroll data-scroll-speed="-6"
-                            data-bg="url('/assets/img/general/footer.jpg')"></div>
-
-                        <div class="overlay2"></div>
-
-
-                        <div class="" data-scroll data-scroll-speed="-4">
-                            <div id="inner_footer">
-                                <a id="1" href="mailto:putin.al@phystech.edu" class="main_link menu_fade">
-                                    putin.al@phystech.edu
-                                </a>
-                                <a id="2" href="mailto:putin.al@phystech.edu" class="main_link menu_fade mobile">
-                                    Get in touch
-                                </a>
-                            </div>
+                <div class="footer_content" data-scroll data-scroll-speed="-4">
+                    <div id="inner_footer">
+                        <a id="" href="mailto:putin.al@phystech.edu" class="main_link menu_fade">
+                            Contact me
+                        </a>
+                    </div>
 
 
-                            <div class="address menu_fade">
-                                <div class="text">
-                                    <div class="textrow">
-                                        <div class="textcol">
-                                            <h5>
-                                                <a href="/sg" class=""
-                                                    title="alik-put — Programmer developer">Moscow</a>
-                                            </h5>
-                                        </div>
-                                        <div class="textcol mob_half">
-                                            <h5>
-                                                <a href="/" title="Home" class="inner_link">Home</a>
-                                                <a href="/projects.html" title="Projects" class="inner_link">Projects
-                                                    <sup>06</sup></a>
-                                                <a href="/expertise" title="Expertise" class="inner_link">Experience
-                                                    <sup>02</sup></a>
-                                                <a href="/about.html" title="About" class="inner_link">About</a>
-                                                <a href="/cv.html" title="Journal" class="inner_link">CV <sup></sup></a>
-                                            </h5>
-                                        </div>
-                                    </div>
 
-                                    <p>
-                                        <br>
-                                        <a class="" href="https://www.instagram.com/alik_put/" target="_blank"
-                                            rel="noopener noreferrer" title="Me on Instagram">Ig &nbsp; &nbsp;</a>
-                                        <a class="" href="https://www.linkedin.com/in/alexander-putin-6a3b07200/"
-                                            target="_blank" rel="noopener noreferrer" title="Me on LinkedIn">In &nbsp;
-                                            &nbsp;</a>
-                                        <a class="" href="https://vk.com/alik_put" target="_blank"
-                                            rel="noopener noreferrer" title="Me on VK">VK &nbsp; &nbsp;</a>
-                                        <a class="" href="https://t.me/alik_put" target="_blank"
-                                            rel="noopener noreferrer" title="Me on Telegram">Tg &nbsp; &nbsp;</a><br>
-                                        <a class="inner_link" href="/sitemap">Sitemap.</a><br><br>
-                                        &copy; <span id="copyrightYear">2022 </span> <a
-                                            href="https://alex2211-put.github.io/"
-                                            title="Alexander Putin - programmer developer">alik-put.&nbsp;
-                                            &nbsp;</a>
-                                        <a class="" href="/sitemap">Sitemap.</a>
-                                    </p>
+                    <nav class="address menu_fade">
+                        <div class="text">
+                            <div class="textrow">
+                                <div class="textcol">
+                                    <h5>
+                                        <a href="/sg" class="" title="alik-put — Programmer developer">Moscow</a>
+                                    </h5>
+                                </div>
+
+                                <div class="textcol mob_half">
+                                    <h5>
+                                        <a href="/" title="Home" class="inner_link">Home</a>
+                                        <a href="/projects.html" title="Projects" class="inner_link">Projects
+                                            <sup>06</sup></a>
+                                        <a href="/expertise" title="Expertise" class="inner_link">Experience
+                                            <sup>02</sup></a>
+
+                                    </h5>
+                                </div>
+                                <div class="textcol mob_half">
+                                    <h5>
+                                        <a href="/" title="Home" class="inner_link">Blog</a>
+                                        <a href="/about.html" title="About" class="inner_link">About</a>
+                                        <a href="/cv.html" title="CV" class="inner_link">CV
+                                            <sup></sup></a>
+                                    </h5>
+                                </div>
+                                <div class="textcol mob_half social">
+                                    <a class="" href="https://www.instagram.com/alik_put/" target="_blank"
+                                        rel="noopener noreferrer" title="Me on Instagram">Ig &nbsp; &nbsp;</a>
+                                    <a class="" href="https://www.linkedin.com/in/alexander-putin-6a3b07200/"
+                                        target="_blank" rel="noopener noreferrer" title="Me on LinkedIn">In &nbsp;
+                                        &nbsp;</a>
+                                    <a class="" href="https://vk.com/alik_put" target="_blank"
+                                        rel="noopener noreferrer" title="Me on VK">VK &nbsp; &nbsp;</a>
+                                    <a class="" href="https://t.me/alik_put" target="_blank"
+                                        rel="noopener noreferrer" title="Me on Telegram">Tg &nbsp; &nbsp;</a><br>
+                                    <a class="inner_link" href="/sitemap">Sitemap.</a><br><br>
+                                    &copy; <span id="copyrightYear">2022 </span> <a
+                                        href="https://alex2211-put.github.io/"
+                                        title="Alexander Putin - programmer developer">alik-put.&nbsp;
+                                        &nbsp;</a>
                                 </div>
                             </div>
+
                         </div>
-                    </footer>
+                    </nav>
+
                 </div>
+            </footer>
+
             </div>
 
         </div>

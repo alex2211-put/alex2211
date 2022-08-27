@@ -28,25 +28,6 @@
     <!-- /Yandex.Metrika counter -->
 
     <!-- FAVICONS -->
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/img/icons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/assets/img/icons/ms-icon-144x144.png">
-
-
     <!-- OG IMAGES -->
 
     <meta name="robots" content="noodp" />
@@ -67,24 +48,20 @@
     <meta name="twitter:creator" content="@alik-put" />
 
     <!-- TRACKING CODES -->
-    <meta name="google-site-verification" content="bsnNPmFR_FEMdAgvRLb4RP8_z4SDLWXIAGpdHyp87Kg" />
 
+    <meta name="google-site-verification" content="bsnNPmFR_FEMdAgvRLb4RP8_z4SDLWXIAGpdHyp87Kg" />
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
-
         gtag('js', new Date());
         gtag('config', 'UA-20462557-3');
-        gtag('config', 'AW-793226681');
-
-
+            // gtag('config', 'AW-793226681', {cookie_flags: 'SameSite=None;Secure'});
     </script>
 
 
-    <!-- PRELOADS -->
+
     <link rel="preload" href="/assets/css/app.css" as="style">
     <link rel="preload" href="/assets/js/scripts.js" as="script">
     <link rel="preload" href="/img/fav_rem.png" as="image">
@@ -105,12 +82,13 @@
     <script defer src="/assets/js/scripts.js"></script>
 </head>
 
-
-<body class=" is-loading">
+<body class="  is-loading">
 
     <div class="cursor" data-cursor>
         <div class="inner">
-            <div class="circle"><span class="cursor_text"></span></div>
+            <div class="circle">
+                <span class="cursor_text"></span>
+            </div>
         </div>
     </div>
 
@@ -123,11 +101,6 @@
                     Alexander Putin
                 </div>
             </a>
-            <div class="nav_right">
-                <a href="/about.html" class=" font_caps">About</a>
-
-                <a href="/projects.html" class=" font_caps">Projects</a>
-            </div>
         </div>
 
         <div class="nav-menu" id="nav">
@@ -138,74 +111,123 @@
         </div>
 
     </header>
-
     <div class="menu-cover" id="menu-cover"></div>
-    <div class="menu-overlay" id="menu-overlay"></div>
 
-    <div id="menuNav" class="menu">
+    <div class="menu__bg">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+            <defs>
+                <radialGradient id="Gradient1" cx="50%" cy="50%" fx="10%" fy="50%" r=".5">
+                    <animate attributeName="fx" dur="64s" values="0%;3%;0%" repeatCount="indefinite" />
+                    <stop offset="0%" stop-color="#777" />
+                    <stop offset="100%" stop-color="#0000" />
+                </radialGradient>
+                <radialGradient id="Gradient2" cx="50%" cy="50%" fx="10%" fy="50%" r=".5">
+                    <animate attributeName="fx" dur="47s" values="0%;3%;0%" repeatCount="indefinite" />
+                    <stop offset="0%" stop-color="#000" />
+                    <stop offset="100%" stop-color="#8880" />
+                </radialGradient>
+                <radialGradient id="Gradient3" cx="50%" cy="50%" fx="50%" fy="50%" r=".5">
+                    <animate attributeName="fx" dur="43s" values="0%;3%;0%" repeatCount="indefinite" />
+                    <stop offset="0%" stop-color="#000" />
+                    <stop offset="100%" stop-color="#0000" />
+                </radialGradient>
+            </defs>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient1)">
+                <animate attributeName="x" dur="40s" values="25%;0%;25%" repeatCount="indefinite" />
+                <animate attributeName="y" dur="42s" values="0%;25%;0%" repeatCount="indefinite" />
+                <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="34s"
+                    repeatCount="indefinite" />
+            </rect>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient2)">
+                <animate attributeName="x" dur="46s" values="-25%;0%;-25%" repeatCount="indefinite" />
+                <animate attributeName="y" dur="48s" values="0%;50%;0%" repeatCount="indefinite" />
+                <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="36s"
+                    repeatCount="indefinite" />
+            </rect>
+            <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient3)">
+                <animate attributeName="x" dur="50s" values="0%;25%;0%" repeatCount="indefinite" />
+                <animate attributeName="y" dur="52s" values="0%;25%;0%" repeatCount="indefinite" />
+                <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="38s"
+                    repeatCount="indefinite" />
+            </rect>
+        </svg>
 
-        <div class="nav-menu close" id="navClose">
-            <span class="line"></span>
-        </div>
+    </div>
 
-        <div class="mid_line"></div>
 
-        <div class="menu_content" id="le_nav">
-            <ol class="grid g3">
-                <li class="">
-                    <a href="/" class="inner_link">Home</a>
+    <nav id="menuNav" class="menu">
+
+        <div class="menu_content menu__hover">
+            <ol>
+                <li class="menu__item">
+                    <a href="/" class="inner_link">
+                        <span class="menu__item-text"><span class="menu__item-textinner">Home <sup></sup></span></span>
+                    </a>
                 </li>
 
-                <li class="">
+
+                <li class="menu__item">
                     <a href="/projects.html" class="inner_link">Projects <sup>06</sup></a>
                 </li>
 
-                <li class="">
+                <li class="menu__item">
                     <a href="/expertise" class="inner_link">Experience <sup>03</sup></a>
                 </li>
 
-                <li class="">
+                <li class="menu__item">
                     <a href="/about.html" class="inner_link">About</a>
                 </li>
 
 
-                <li class="">
+                <li class="menu__item">
                     <a href="/cv.html" class="inner_link">CV <sup></sup></a>
+                </li>
+
+                <li class="mobile_link first">
+                    <a href="/projects.html" class="inner_link">Projects <sup>06</sup></a>
+                </li>
+                <li class="mobile_link">
+                    <a href="/expertise" class="inner_link">Experience <sup>03</sup></a>
+                </li>
+
+                <li class="mobile_link">
+                    <a href="/about.html" class="inner_link">About</a>
                 </li>
                 <li class="mobile_link">
                     <a href="mailto:putin.al@phystech.edu" title="Contact Me" class="">Contact Me</a>
                 </li>
 
+
             </ol>
 
             <div class="address">
-                <div class="text">
+                <div class="address__col">
                     <a href="/sg" title="Alexander Putin — Programmer developer" class="inner_link">
-                        <h5>Moscow</h5>
+                        Moscow
                     </a>
+                </div>
 
-                    <h5 class="twocol">
-                        <div class="twocol_col">
-                            <a href="/projects.html" title="Projects" class="inner_link">Projects <sup>06</sup></a>
-                            <a href="/brands" title="Brands" class="inner_link">Experience <sup>02</sup></a>
-                            <a href="/about.html" title="About" class="inner_link">About <sup></sup></a>
-                        </div>
-                        <div class="twocol_col">
-                            <a href="mailto:putin.al@phystech.edu" title="Contact Me" class="">Contact Me</a>
-                            <!--                        <a href="https://transform.fleava.com" target="_blank" rel="noopener noreferrer" title="Transform with Fleava" class="">Transform &nbsp; &#8594;</a>-->
+                <div class="address__col address__col_col">
+                    <div class="address__col1">
+                        <a href="/projects.html" title="Projects" class="inner_link">Projects <sup>06</sup></a>
+                        <a href="/brands" title="Brands" class="inner_link">Experience <sup>02</sup></a>
+                        <a href="/about.html" title="About" class="inner_link">About <sup></sup></a>
+                    </div>
+                    <div class="address__col2">
+                        <a href="mailto:putin.al@phystech.edu" title="Contact Me" class="">Contact Me</a>
+                    </div>
+                </div>
 
-                        </div>
-                    </h5>
-
+                <div class="address__col">
                     <p>
                         <br>
-                        <a class="" href="https://www.instagram.com/alik_put/" target="_blank" rel="noopener noreferrer"
-                            title="Me on Instagram">Ig &nbsp; &nbsp;</a>
-                            <a class="" href="https://www.linkedin.com/in/alexander-putin-6a3b07200/" target="_blank"
+                        <a class="social" href="https://www.instagram.com/alik_put/" target="_blank"
+                            rel="noopener noreferrer" title="Me on Instagram">Ig &nbsp; &nbsp;</a>
+                        <a class="social" href="https://www.linkedin.com/in/alexander-putin-6a3b07200/" target="_blank"
                             rel="noopener noreferrer" title="Me on LinkedIn">In &nbsp; &nbsp;</a>
-                        <a class="" href="https://vk.com/alik_put" target="_blank" rel="noopener noreferrer"
+                        <a class="social" href="https://vk.com/alik_put" target="_blank" rel="noopener noreferrer"
                             title="Me on VK">VK &nbsp; &nbsp;</a>
-                        <a class="" href="https://t.me/alik_put" target="_blank" rel="noopener noreferrer"
+                        <a class="social" href="https://t.me/alik_put" target="_blank" rel="noopener noreferrer"
                             title="Me on Telegram">Tg &nbsp; &nbsp;</a><br>
                         <a class="inner_link" href="/sitemap">Sitemap.</a><br><br>
                     </p>
@@ -213,7 +235,8 @@
             </div>
         </div>
 
-    </div>
+    </nav>
+
 
     <div id="load_overlay" class="load_overlay"></div>
 
@@ -222,11 +245,10 @@
             <div class="bar" id="dynamicBar"></div>
         </div>
     </div>
-
     <div id="barba-wrapper">
         <div class="barba-container">
             <div data-scroll-container>
-                <div id="main">
+                <main id="main">
 
                     <section class="section" data-scroll-section>
                         <div class="lust_upd">
@@ -246,72 +268,83 @@
 
 
                     </section>
+                </main>
 
-                    <footer data-scroll-section>
+                <footer class="color_creme" data-scroll-section>
 
-                        <div class="footer__background background-image" data-scroll data-scroll-speed="-6"
-                            data-bg="url('/assets/img/general/footer.jpg')"></div>
-
-                        <div class="overlay2"></div>
-
-
-                        <div class="" data-scroll data-scroll-speed="-4">
-                            <div id="inner_footer">
-                                <a id="1" href="mailto:putin.al@phystech.edu" class="main_link menu_fade">
-                                    putin.al@phystech.edu
-                                </a>
-                                <a id="2" href="mailto:putin.al@phystech.edu" class="main_link menu_fade mobile">
-                                    Get in touch
-                                </a>
-                            </div>
+                    <div class="footer__background" data-scroll data-scroll-repeat data-scroll-speed="-6"
+                        data-scroll-offset="0">
+                        <div id="footerblob" class="blob">
+                            <canvas></canvas>
+                        </div>
+                    </div>
 
 
-                            <div class="address menu_fade">
-                                <div class="text">
-                                    <div class="textrow">
-                                        <div class="textcol">
-                                            <h5>
-                                                <a href="/sg" class=""
-                                                    title="alik-put — Programmer developer">Moscow</a>
-                                            </h5>
-                                        </div>
-                                        <div class="textcol mob_half">
-                                            <h5>
-                                                <a href="/" title="Home" class="inner_link">Home</a>
-                                                <a href="/projects.html" title="Projects" class="inner_link">Projects
-                                                    <sup>06</sup></a>
-                                                <a href="/expertise" title="Expertise" class="inner_link">Experience
-                                                    <sup>02</sup></a>
-                                                <a href="/about.html" title="About" class="inner_link">About</a>
-                                                <a href="/cv.html" title="Journal" class="inner_link">CV <sup></sup></a>
-                                            </h5>
-                                        </div>
+
+                    <div class="footer_content" data-scroll data-scroll-speed="-4">
+                        <div id="inner_footer">
+                            <a id="" href="mailto:putin.al@phystech.edu" class="main_link menu_fade">
+                                Contact me
+                            </a>
+                        </div>
+
+
+
+                        <nav class="address menu_fade">
+                            <div class="text">
+                                <div class="textrow">
+                                    <div class="textcol">
+                                        <h5>
+                                            <a href="/sg" class="" title="alik-put — Programmer developer">Moscow</a>
+                                        </h5>
                                     </div>
-                                    <p>
-                                        <br>
+
+                                    <div class="textcol mob_half">
+                                        <h5>
+                                            <a href="/" title="Home" class="inner_link">Home</a>
+                                            <a href="/projects.html" title="Projects" class="inner_link">Projects
+                                                <sup>06</sup></a>
+                                            <a href="/expertise" title="Expertise" class="inner_link">Experience
+                                                <sup>02</sup></a>
+
+                                        </h5>
+                                    </div>
+                                    <div class="textcol mob_half">
+                                        <h5>
+                                            <a href="/" title="Home" class="inner_link">Blog</a>
+                                            <a href="/about.html" title="About" class="inner_link">About</a>
+                                            <a href="/cv.html" title="CV" class="inner_link">CV
+                                                <sup></sup></a>
+                                        </h5>
+                                    </div>
+                                    <div class="textcol mob_half social">
                                         <a class="" href="https://www.instagram.com/alik_put/" target="_blank"
                                             rel="noopener noreferrer" title="Me on Instagram">Ig &nbsp; &nbsp;</a>
                                         <a class="" href="https://www.linkedin.com/in/alexander-putin-6a3b07200/"
-                                            target="_blank" rel="noopener noreferrer" title="Me on LinkedIn">In &nbsp;
+                                            target="_blank" rel="noopener noreferrer" title="Me on LinkedIn">In
+                                            &nbsp;
                                             &nbsp;</a>
                                         <a class="" href="https://vk.com/alik_put" target="_blank"
                                             rel="noopener noreferrer" title="Me on VK">VK &nbsp; &nbsp;</a>
                                         <a class="" href="https://t.me/alik_put" target="_blank"
-                                            rel="noopener noreferrer" title="Me on Telegram">Tg &nbsp; &nbsp;</a><br>
+                                            rel="noopener noreferrer" title="Me on Telegram">Tg &nbsp;
+                                            &nbsp;</a><br>
                                         <a class="inner_link" href="/sitemap">Sitemap.</a><br><br>
                                         &copy; <span id="copyrightYear">2022 </span> <a
                                             href="https://alex2211-put.github.io/"
                                             title="Alexander Putin - programmer developer">alik-put.&nbsp;
                                             &nbsp;</a>
-                                        <a class="" href="/sitemap">Sitemap.</a>
-                                    </p>
+                                    </div>
                                 </div>
+
                             </div>
-                        </div>
-                    </footer>
-                </div>
+                        </nav>
+
+                    </div>
+                </footer>
             </div>
         </div>
+    </div>
     </div>
 </body>
 
