@@ -2020,6 +2020,12 @@ html.has-scroll-smooth [data-scroll-speed] {
     height: 100%
 }
 
+.fade_new {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
 html.has-scroll-smooth .scrollanim_intro {
     padding-top: 60vh !important;
     padding-bottom: 20vh !important
