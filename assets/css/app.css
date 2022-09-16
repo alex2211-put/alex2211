@@ -2761,7 +2761,7 @@ header .logo span {
 
 .menu .address__col a.social {
     display: inline-block;
-    padding-right: 1vw
+    padding-right: 0.6vw
 }
 
 .menu .address__col a:hover {
