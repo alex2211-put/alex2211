@@ -1,0 +1,3 @@
+User-agent: Yandex
+Allow: /
+sitemap: https://alex2211-put.github.io/sitemap.xml
